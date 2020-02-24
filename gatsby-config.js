@@ -7,9 +7,7 @@ module.exports = {
         author:         config.siteAuthor,
         logoUrl:        config.siteLogoUrl,
     },
-
-    pathPrefix: config.pathPrefix,
-
+	pathPrefix: '__GATSBY_IPFS_PATH_PREFIX__',
     plugins: [
         `gatsby-plugin-react-helmet`,
         {
@@ -81,5 +79,6 @@ module.exports = {
         // this (optional) plugin enables Progressive Web App + Offline functionality
         // To learn more, visit: https://gatsby.dev/offline
         `gatsby-plugin-offline`,
+		`gatsby-plugin-ipfs`
     ],
 };
