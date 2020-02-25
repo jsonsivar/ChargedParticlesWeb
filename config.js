@@ -11,9 +11,7 @@ module.exports = {
     manifestThemeColor: '#EC407A',
     manifestDisplay: 'standalone',
     manifestIcon: 'src/images/favicon/android-chrome-512x512.png',
-
-    pathPrefix: '/',  // '__GATSBY_IPFS_PATH_PREFIX__',
-
+    
     // social
     socialLinks: [
         {
